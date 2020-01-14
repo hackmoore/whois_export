@@ -1,6 +1,9 @@
 # whois_export
 This basic script uses the whois command line function to make calls to any supported TLDs
 
+## Dependencies
+* `whois` command line application
+
 ## Explaination
 The script expects at least a domain provided by the `--domain` command, this can be a list separated by spaces.
 You also need to provide a list of sections you want to query, this is done through the `--section` parameter, again can be a list (space separated) in the format `field=value` to identify sections you want.
